@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KittenEngine\src\FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\KittenAssets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\KittenPreprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\KittenRendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\ComputeBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\Algo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\opt\asa047.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\opt\compass_search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\opt\lbfgs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\opt\math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\opt\praxis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\opt\toms178.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\KittenInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\MeshMoments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\StopWatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\opt\svd\svd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KittenEngine\src\Gizmos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\initialization\init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\sim\iterate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\sim\step.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\sim\lambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\sim\vbd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\sim\xpbd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\io\render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\examples\tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\examples\bridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\examples\cantilever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\sim\deform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\io\mesher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\io\saveState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\examples\slingshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\io\gzstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\examples\slinky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosserat\initialization\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KittenEngine\includes\modules\Bound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\KittenAssets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\KittenPreprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\KittenRendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\KittenEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Algo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\atomic_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\ComputeBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\arithmetic_ansi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\arithmetic_sse_double.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\arithmetic_sse_float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\asa047.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\compass_search.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\lbfgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\praxis.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\toms178.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\KittenInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\SpatialHashmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\UniqueList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\glTempVar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Dist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\StopWatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\BasicCameraControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Rotor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\svd\Singular_Value_Decomposition_Givens_QR_Factorization_Kernel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\svd\Singular_Value_Decomposition_Jacobi_Conjugation_Kernel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\svd\Singular_Value_Decomposition_Kernel_Declarations.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\svd\Singular_Value_Decomposition_Main_Kernel_Body.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\svd\Singular_Value_Decomposition_Preamble.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\opt\svd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\UniformBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\SymMat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenEngine\includes\modules\Gizmos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cosserat\Cosserat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cosserat\CosseratExamples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cosserat\examples\fastPRGN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cosserat\io\gzstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="KittenEngine\shaders\blingBase.frag" />
+    <CopyFileToFolders Include="KittenEngine\shaders\blingBase.vert" />
+    <CopyFileToFolders Include="KittenEngine\shaders\blingForward.frag" />
+    <CopyFileToFolders Include="KittenEngine\shaders\blingForward.vert" />
+    <CopyFileToFolders Include="KittenEngine\shaders\blit.frag" />
+    <CopyFileToFolders Include="KittenEngine\shaders\blit.vert" />
+    <CopyFileToFolders Include="KittenEngine\shaders\env.frag" />
+    <CopyFileToFolders Include="KittenEngine\shaders\env.vert" />
+    <CopyFileToFolders Include="KittenEngine\shaders\kittenCommon.glsl" />
+    <CopyFileToFolders Include="KittenEngine\shaders\kittenCommonFrag.glsl" />
+    <CopyFileToFolders Include="KittenEngine\shaders\kittenCommonVert.glsl" />
+    <CopyFileToFolders Include="KittenEngine\shaders\kittenLighting.glsl" />
+    <CopyFileToFolders Include="KittenEngine\shaders\kittenUtils.glsl" />
+    <CopyFileToFolders Include="KittenEngine\shaders\unlit.frag" />
+    <CopyFileToFolders Include="KittenEngine\shaders\unlit.vert" />
+  </ItemGroup>
+</Project>

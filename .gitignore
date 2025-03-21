@@ -69,7 +69,6 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
-*.obj
 *.iobj
 *.pch
 *.pdb
@@ -347,3 +346,19 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+
+KittenEngine/imgui.ini
+
+output/
+
+KittenEngine/frame.obj
+
+KittenEngine/frame.crs
+
+KittenEngine/frames/
+
+KittenEngine/segConvergence.csv
+
+KittenEngine/segConvergence.xlsx
+
+*.psd
