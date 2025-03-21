@@ -1,7 +1,6 @@
 # Stable Cosserat Rods
-**[SIGGRAPH 2025](https://s2025.siggraph.org/)**
 
-A simple CPU implementation of "Stable Cosserat Rods", SIGGRAPH 2025. 
+A simple CPU implementation of the paper ["Stable Cosserat Rods", SIGGRAPH 2025](https://s2025.siggraph.org/). 
 
 This repository contains the source code, model, and paramters for the CPU based cantilever, bridge, slingshot, and tree examples.
 
