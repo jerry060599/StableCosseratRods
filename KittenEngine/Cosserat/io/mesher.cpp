@@ -73,7 +73,7 @@ namespace Cosserat {
 					// if k=1 (upper vertex of this segment) and os.i.y == seg.i.y (tip against tip)
 					nsegs[k] = os;
 					if ((k == 0 && os.i.x == seg.i.x) || (k == 1 && os.i.y == seg.i.y))
-						nsegs[k].q = Rotor(0, 1, 0, 0) * nsegs[k].q; // Rotate 180 degrees around y
+						nsegs[k].q = nsegs[k].q * Rotor(0, 1, 0, 0); // Rotate 180 degrees around y
 
 					if (dot(nsegs[k].q.v, seg.q.v) < 0) nsegs[k].q.v = -nsegs[k].q.v;
 				}
