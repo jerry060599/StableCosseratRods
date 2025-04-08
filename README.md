@@ -4,7 +4,7 @@ A simple CPU implementation of the paper ["Stable Cosserat Rods", SIGGRAPH 2025]
 
 This repository contains the source code, model, and paramters for the CPU based cantilever, bridge, slingshot, and tree examples.
 
-For the massively parallel GPU based examples like yarn cloth twisting, see [libYarnball](https://jerryhsu.io)
+For the massively parallel GPU based examples like yarn cloth twisting, see [YarnBall](https://github.com/jerry060599/YarnBall) sim.
 
 ## Build
 Project templated from [Kitten Engine](https://github.com/jerry060599/KittenEngine/tree/main)
