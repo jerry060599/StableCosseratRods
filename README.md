@@ -17,6 +17,12 @@ The main library is compiled through **clang** for performance and the app is co
 To install these packages:
 
 1. Setup vcpkg https://vcpkg.io/en/getting-started.html
+```
+git clone https://github.com/microsoft/vcpkg.git
+.\bootstrap-vcpkg.bat
+.\vcpkg.exe integrate install
+```
+Optionally add vcpkg.exe to %PATH%
 
 2. Run:
 ```
